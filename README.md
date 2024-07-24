@@ -1,40 +1,70 @@
-# Advice App
-Overview
-The Advice App is a simple React application that fetches and displays random advice from the Advice Slip API. The application demonstrates the use of React class components, state management, and making HTTP requests using Axios.
+# Getting Started with Create React App
 
-# Features
-Fetches random advice from the Advice Slip API.
-Displays the fetched advice on the screen.
-Includes a button to fetch and display a new piece of advice.
-# Skills Demonstrated
-React.js: Utilizing class components and lifecycle methods.
-State Management: Managing state within a class component.
-Axios: Making HTTP requests to fetch data from an API.
-CSS: Styling components using an external stylesheet.
-# Installation
-1.Clone the repository:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-git clone https://github.com/your-username/advice-app.git
+## Available Scripts
 
-2.Navigate to the project directory:
+In the project directory, you can run:
 
-cd advice-app
+### `npm start`
 
-3. Install the dependencies:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-npm install
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# Usage
-1.Start the development server:
+### `npm test`
 
-npm start
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2.Open your browser and navigate to http://localhost:3000.
+### `npm run build`
 
-# Code Overview
-App.js: This file contains the main App component which is a class component. It manages the state and handles fetching advice from the API.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-componentDidMount(): This lifecycle method calls fetchAdvice() when the component mounts.
-fetchAdvice(): This method makes an HTTP GET request to the Advice Slip API and updates the state with the fetched advice.
-render(): This method renders the advice and a button to fetch new advice.
-App.css: This file contains the styles for the application.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
